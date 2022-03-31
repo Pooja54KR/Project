@@ -4,6 +4,7 @@ public static void main(String args[])
 {  
    sum(20,30);
    sub(30,15);
+   mult(12,10);
  
 }
 
@@ -21,5 +22,14 @@ public static void sum(int n1, int n2){
 
     System.out.println("The subtraction of numbers is: "+sub); 
  }
+  public static void mult(int n1, int n2){
+    int mult;
+    mult = n1*n2;  
+
+
+    System.out.println("The multiplication of numbers is: "+mult); 
+ }
+
+
 
 }

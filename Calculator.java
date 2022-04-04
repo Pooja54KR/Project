@@ -32,6 +32,7 @@ public static void sum(int n1, int n2){
  }
    public static void div(int n1,int n2){
       int div;
+      div = n1/n2;
       
       system.out.println("The division of numbers is:"+div);
       

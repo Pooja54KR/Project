@@ -5,6 +5,7 @@ public static void main(String args[])
    sum(20,30);
    sub(30,15);
    mult(12,10);
+   div(12,2);
  
 }
 
@@ -29,6 +30,13 @@ public static void sum(int n1, int n2){
 
     System.out.println("The multiplication of numbers is: "+mult); 
  }
+   public static void div(int n1,int n2){
+      int div;
+      
+      system.out.println("The division of numbers is:"+div);
+      
+   }
+      
 
 
 
